@@ -1,0 +1,132 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\NewFolder1\**" />
+    <Content Remove="Views\NewFolder1\**" />
+    <EmbeddedResource Remove="Views\NewFolder1\**" />
+    <None Remove="Views\NewFolder1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\img\about-us.jpg" />
+    <Content Remove="wwwroot\assets\img\banner-bg.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\blog-1.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\blog-2.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\blog-3.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\blog-4.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\blog-5.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\details\blog-profile.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\details\comment-1.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\details\comment-2.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\details\comment-3.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\details\details-1.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\details\details-2.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\details\details-hero.jpg" />
+    <Content Remove="wwwroot\assets\img\blog\details\quote-left.png" />
+    <Content Remove="wwwroot\assets\img\breadcrumb-bg.jpg" />
+    <Content Remove="wwwroot\assets\img\classes\class-1.jpg" />
+    <Content Remove="wwwroot\assets\img\classes\class-2.jpg" />
+    <Content Remove="wwwroot\assets\img\classes\class-3.jpg" />
+    <Content Remove="wwwroot\assets\img\classes\class-4.jpg" />
+    <Content Remove="wwwroot\assets\img\classes\class-5.jpg" />
+    <Content Remove="wwwroot\assets\img\classes\class-details\class-detailsl.jpg" />
+    <Content Remove="wwwroot\assets\img\classes\class-details\trainer-profile.jpg" />
+    <Content Remove="wwwroot\assets\img\gallery\gallery-1.jpg" />
+    <Content Remove="wwwroot\assets\img\gallery\gallery-2.jpg" />
+    <Content Remove="wwwroot\assets\img\gallery\gallery-3.jpg" />
+    <Content Remove="wwwroot\assets\img\gallery\gallery-4.jpg" />
+    <Content Remove="wwwroot\assets\img\gallery\gallery-5.jpg" />
+    <Content Remove="wwwroot\assets\img\gallery\gallery-6.jpg" />
+    <Content Remove="wwwroot\assets\img\gallery\gallery-7.jpg" />
+    <Content Remove="wwwroot\assets\img\gallery\gallery-8.jpg" />
+    <Content Remove="wwwroot\assets\img\gallery\gallery-9.jpg" />
+    <Content Remove="wwwroot\assets\img\hero\hero-1.jpg" />
+    <Content Remove="wwwroot\assets\img\hero\hero-2.jpg" />
+    <Content Remove="wwwroot\assets\img\letest-blog\latest-1.jpg" />
+    <Content Remove="wwwroot\assets\img\letest-blog\latest-2.jpg" />
+    <Content Remove="wwwroot\assets\img\letest-blog\latest-3.jpg" />
+    <Content Remove="wwwroot\assets\img\letest-blog\latest-4.jpg" />
+    <Content Remove="wwwroot\assets\img\letest-blog\latest-5.jpg" />
+    <Content Remove="wwwroot\assets\img\logo.png" />
+    <Content Remove="wwwroot\assets\img\services\services-1.jpg" />
+    <Content Remove="wwwroot\assets\img\services\services-2.jpg" />
+    <Content Remove="wwwroot\assets\img\services\services-3.jpg" />
+    <Content Remove="wwwroot\assets\img\services\services-4.jpg" />
+    <Content Remove="wwwroot\assets\img\sidebar-banner.jpg" />
+    <Content Remove="wwwroot\assets\img\team\team-1.jpg" />
+    <Content Remove="wwwroot\assets\img\team\team-2.jpg" />
+    <Content Remove="wwwroot\assets\img\team\team-3.jpg" />
+    <Content Remove="wwwroot\assets\img\team\team-4.jpg" />
+    <Content Remove="wwwroot\assets\img\team\team-5.jpg" />
+    <Content Remove="wwwroot\assets\img\team\team-6.jpg" />
+    <Content Remove="wwwroot\assets\img\testimonial\testimonial-1.jpg" />
+    <Content Remove="wwwroot\assets\img\testimonial\testimonial-2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\img\about-us.jpg" />
+    <None Include="wwwroot\assets\img\banner-bg.jpg" />
+    <None Include="wwwroot\assets\img\blog\blog-1.jpg" />
+    <None Include="wwwroot\assets\img\blog\blog-2.jpg" />
+    <None Include="wwwroot\assets\img\blog\blog-3.jpg" />
+    <None Include="wwwroot\assets\img\blog\blog-4.jpg" />
+    <None Include="wwwroot\assets\img\blog\blog-5.jpg" />
+    <None Include="wwwroot\assets\img\blog\details\blog-profile.jpg" />
+    <None Include="wwwroot\assets\img\blog\details\comment-1.jpg" />
+    <None Include="wwwroot\assets\img\blog\details\comment-2.jpg" />
+    <None Include="wwwroot\assets\img\blog\details\comment-3.jpg" />
+    <None Include="wwwroot\assets\img\blog\details\details-1.jpg" />
+    <None Include="wwwroot\assets\img\blog\details\details-2.jpg" />
+    <None Include="wwwroot\assets\img\blog\details\details-hero.jpg" />
+    <None Include="wwwroot\assets\img\blog\details\quote-left.png" />
+    <None Include="wwwroot\assets\img\breadcrumb-bg.jpg" />
+    <None Include="wwwroot\assets\img\classes\class-1.jpg" />
+    <None Include="wwwroot\assets\img\classes\class-2.jpg" />
+    <None Include="wwwroot\assets\img\classes\class-3.jpg" />
+    <None Include="wwwroot\assets\img\classes\class-4.jpg" />
+    <None Include="wwwroot\assets\img\classes\class-5.jpg" />
+    <None Include="wwwroot\assets\img\classes\class-details\class-detailsl.jpg" />
+    <None Include="wwwroot\assets\img\classes\class-details\trainer-profile.jpg" />
+    <None Include="wwwroot\assets\img\gallery\gallery-1.jpg" />
+    <None Include="wwwroot\assets\img\gallery\gallery-2.jpg" />
+    <None Include="wwwroot\assets\img\gallery\gallery-3.jpg" />
+    <None Include="wwwroot\assets\img\gallery\gallery-4.jpg" />
+    <None Include="wwwroot\assets\img\gallery\gallery-5.jpg" />
+    <None Include="wwwroot\assets\img\gallery\gallery-6.jpg" />
+    <None Include="wwwroot\assets\img\gallery\gallery-7.jpg" />
+    <None Include="wwwroot\assets\img\gallery\gallery-8.jpg" />
+    <None Include="wwwroot\assets\img\gallery\gallery-9.jpg" />
+    <None Include="wwwroot\assets\img\hero\hero-1.jpg" />
+    <None Include="wwwroot\assets\img\hero\hero-2.jpg" />
+    <None Include="wwwroot\assets\img\letest-blog\latest-1.jpg" />
+    <None Include="wwwroot\assets\img\letest-blog\latest-2.jpg" />
+    <None Include="wwwroot\assets\img\letest-blog\latest-3.jpg" />
+    <None Include="wwwroot\assets\img\letest-blog\latest-4.jpg" />
+    <None Include="wwwroot\assets\img\letest-blog\latest-5.jpg" />
+    <None Include="wwwroot\assets\img\logo.png" />
+    <None Include="wwwroot\assets\img\services\services-1.jpg" />
+    <None Include="wwwroot\assets\img\services\services-2.jpg" />
+    <None Include="wwwroot\assets\img\services\services-3.jpg" />
+    <None Include="wwwroot\assets\img\services\services-4.jpg" />
+    <None Include="wwwroot\assets\img\sidebar-banner.jpg" />
+    <None Include="wwwroot\assets\img\team\team-1.jpg" />
+    <None Include="wwwroot\assets\img\team\team-2.jpg" />
+    <None Include="wwwroot\assets\img\team\team-3.jpg" />
+    <None Include="wwwroot\assets\img\team\team-4.jpg" />
+    <None Include="wwwroot\assets\img\team\team-5.jpg" />
+    <None Include="wwwroot\assets\img\team\team-6.jpg" />
+    <None Include="wwwroot\assets\img\testimonial\testimonial-1.jpg" />
+    <None Include="wwwroot\assets\img\testimonial\testimonial-2.jpg" />
+  </ItemGroup>
+
+</Project>

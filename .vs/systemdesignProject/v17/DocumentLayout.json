@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\classes\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\classes\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\auth\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\auth\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\ourteam\\ourteam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\ourteam\\ourteam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\contactus\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\contactus\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\controllers\\contactuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\about\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\about\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\views\\services\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\views\\services\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\controllers\\ourteamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\controllers\\ourteamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|c:\\users\\abd allah\\source\\repos\\systemdesignproject\\systemdesignproject\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4F1038-290B-4714-94DA-59051A4A9CC4}|systemdesignProject\\systemdesignProject.csproj|solutionrelative:systemdesignproject\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "systemdesignProject\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "systemdesignProject\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T00:44:01.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Auth\\Profile.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\Auth\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Auth\\Profile.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\Auth\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T00:40:58.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T00:40:02.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Auth\\login.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\Auth\\login.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Auth\\login.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\Auth\\login.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwCYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T00:39:30.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Classes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Classes\\Classes.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\Classes\\Classes.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Classes\\Classes.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\Classes\\Classes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T00:09:08.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contactus.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Contactus\\Contactus.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\Contactus\\Contactus.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Contactus\\Contactus.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\Contactus\\Contactus.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T23:49:34.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T03:30:31.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "systemdesignProject\\Controllers\\ClassesController.cs",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "systemdesignProject\\Controllers\\ClassesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T00:10:10.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Services\\Services.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\Services\\Services.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Services\\Services.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\Services\\Services.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T22:55:45.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T15:20:49.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ourteam.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Ourteam\\Ourteam.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\Ourteam\\Ourteam.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\Ourteam\\Ourteam.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\Ourteam\\Ourteam.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T23:19:50.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ContactusController.cs",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\ContactusController.cs",
+              "RelativeDocumentMoniker": "systemdesignProject\\Controllers\\ContactusController.cs",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\ContactusController.cs",
+              "RelativeToolTip": "systemdesignProject\\Controllers\\ContactusController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T23:52:59.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "systemdesignProject\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "systemdesignProject\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T21:26:43.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "aboutus.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\About\\aboutus.cshtml",
+              "RelativeDocumentMoniker": "systemdesignProject\\Views\\About\\aboutus.cshtml",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Views\\About\\aboutus.cshtml",
+              "RelativeToolTip": "systemdesignProject\\Views\\About\\aboutus.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T20:38:19.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "systemdesignProject\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "systemdesignProject\\Controllers\\ServicesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T22:59:27.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OurteamController.cs",
+              "DocumentMoniker": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\OurteamController.cs",
+              "RelativeDocumentMoniker": "systemdesignProject\\Controllers\\OurteamController.cs",
+              "ToolTip": "C:\\Users\\Abd Allah\\source\\repos\\systemdesignProject\\systemdesignProject\\Controllers\\OurteamController.cs",
+              "RelativeToolTip": "systemdesignProject\\Controllers\\OurteamController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T23:23:41.667Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
