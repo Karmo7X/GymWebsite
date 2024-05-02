@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using systemdesignProject.Models;
 
 namespace systemdesignProject.Controllers
 {
@@ -6,7 +7,10 @@ namespace systemdesignProject.Controllers
     {
         public IActionResult Ourteam()
         {
-            return View();
+
+            GymdatabaseContext db = new GymdatabaseContext();
+            var our_teamdata = db.Ourteams.ToList();
+            return View(our_teamdata);
         }
     }
 }

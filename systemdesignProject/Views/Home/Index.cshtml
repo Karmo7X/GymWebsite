@@ -2,6 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
+@model List<Ourteam>
 <div class="h-100">
     <!-- Hero Section Begin -->
     <section class="hero-section">
@@ -296,7 +297,19 @@
             </div>
             <div class="row">
                 <div class="ts-slider owl-carousel">
-                    <div class="col-lg-4">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-4">
+                            <div class="ts-item set-bg" data-setbg="@item?.Img">
+                                <div class="ts_text">
+                                    <h4>@item?.Name</h4>
+                                    <span>@item?.Job</span>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    }
+@*                     <div class="col-lg-4">
                         <div class="ts-item set-bg" data-setbg="/assets/img/team/team-1.jpg">
                             <div class="ts_text">
                                 <h4>Athart Rachel</h4>
@@ -343,7 +356,7 @@
                                 <span>Gym Trainer</span>
                             </div>
                         </div>
-                    </div>
+                    </div> *@
                 </div>
             </div>
         </div>

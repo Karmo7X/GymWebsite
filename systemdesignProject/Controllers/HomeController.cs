@@ -6,22 +6,19 @@ namespace systemdesignProject.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+      
 
         public IActionResult Index()
         {
-            return View();
+            GymdatabaseContext db = new GymdatabaseContext();
+            var our_teamdata = db.Ourteams.ToList();
+            var plan_data = db.Planstables.ToList();
+         
+
+            return View(our_teamdata);
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+     
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

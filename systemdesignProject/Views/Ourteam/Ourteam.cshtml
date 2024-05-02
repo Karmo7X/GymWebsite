@@ -2,7 +2,7 @@
     ViewData["Title"] = "Ourteam Page";
 }
 
-
+@model List<Ourteam>
 
 <!-- Breadcrumb Section Begin -->
 <section class="breadcrumb-section set-bg" data-setbg="/assets/img/breadcrumb-bg.jpg">
@@ -36,22 +36,26 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-sm-6">
-                <div class="ts-item set-bg" data-setbg="/assets/img/team/team-1.jpg">
+            @foreach (var item in Model)
+            {
+                 <div class="col-lg-4 col-sm-6">
+                    <div class="ts-item set-bg" data-setbg="@item?.Img">
                     <div class="ts_text">
-                        <h4>Athart Rachel</h4>
-                        <span>Gym Trainer</span>
-                        <div class="tt_social">
+                        <h4>@item?.Name</h4>
+                            <span>@item?.Job</span>
+                       @*  <div class="tt_social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="#"><i class="fa fa-youtube-play"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa  fa-envelope-o"></i></a>
-                        </div>
+                        </div> *@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
+            }
+           
+          @*   <div class="col-lg-4 col-sm-6">
                 <div class="ts-item set-bg" data-setbg="/assets/img/team/team-2.jpg">
                     <div class="ts_text">
                         <h4>Athart Rachel</h4>
@@ -125,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> *@
         </div>
     </div>
 </section>

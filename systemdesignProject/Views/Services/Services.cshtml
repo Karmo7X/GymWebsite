@@ -3,6 +3,8 @@
 }
 
 
+@model List<Service>
+
 <!-- Breadcrumb Section Begin -->
 <section class="breadcrumb-section set-bg" data-setbg="/assets/img/breadcrumb-bg.jpg">
     <div class="container">
@@ -32,21 +34,36 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 order-lg-1 col-md-6 p-0">
-                <div class="ss-pic">
-                    <img src="/assets/img/services/services-1.jpg" alt="">
+            @foreach (var item in Model.Select((value, index) => new { Index = index, Value = value }))
+            {
+                var orderClass = item.Index switch
+                {
+                    0 => "order-lg-3",
+                    1 => "order-lg-4",
+                    2 => "order-lg-8",
+                    3 => "order-lg-7",
+                    4 => "order-lg-6",
+                    5 => "order-lg-5",
+                   
+                };
+
+                var secondRowClass = item.Index == 3 || item.Index == 5 ? "second-row" : "";
+
+                <div class="col-lg-3 @orderClass col-md-6 p-0">
+                    <div class="ss-pic">
+                        <img src="@item.Value?.Img" alt="" style="width:290px;height:290px">
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 order-lg-2 col-md-6 p-0">
-                <div class="ss-text">
-                    <h4>Personal training</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut dolore
-                        facilisis.
-                    </p>
-                    <a href="#">Explore</a>
+                <div class="col-lg-3 @orderClass col-md-6 p-0">
+                    <div class="ss-text @secondRowClass">
+                        <h4>@item.Value?.Name</h4>
+                        <p>
+                            @item.Value?.Description
+                        </p>
+                    </div>
                 </div>
-            </div>
+            }
+          @*   
             <div class="col-lg-3 order-lg-3 col-md-6 p-0">
                 <div class="ss-pic">
                     <img src="/assets/img/services/services-2.jpg" alt="">
@@ -56,7 +73,7 @@
                 <div class="ss-text">
                     <h4>Group fitness classes</h4>
                     <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
-                    <a href="#">Explore</a>
+                  
                 </div>
             </div>
             <div class="col-lg-3 order-lg-8 col-md-6 p-0">
@@ -71,7 +88,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut dolore
                         facilisis.
                     </p>
-                    <a href="#">Explore</a>
+                  
                 </div>
             </div>
             <div class="col-lg-3 order-lg-6 col-md-6 p-0">
@@ -83,9 +100,9 @@
                 <div class="ss-text second-row">
                     <h4>Strength training</h4>
                     <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
-                    <a href="#">Explore</a>
+                  
                 </div>
-            </div>
+            </div> *@
         </div>
     </div>
 </section>
