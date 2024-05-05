@@ -12,10 +12,17 @@ namespace systemdesignProject.Controllers
         {
             GymdatabaseContext db = new GymdatabaseContext();
             var our_teamdata = db.Ourteams.ToList();
-            var plan_data = db.Planstables.ToList();
-         
+            var plan_data = db.Planstable.ToList();
+            var classes_data = db.Classes.ToList();
+            var viewModel = new HomeMultipulViewModel
+            {
+                OurteamData = our_teamdata,
+                PlanData = plan_data,
+                ClassesData= classes_data
+            };
 
-            return View(our_teamdata);
+
+            return View(viewModel);
         }
 
      

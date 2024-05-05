@@ -3,7 +3,7 @@
 }
 
 
-@model List<Service>
+@model systemdesignProject.Models.ServicesAndPlansViewModel
 
 <!-- Breadcrumb Section Begin -->
 <section class="breadcrumb-section set-bg" data-setbg="/assets/img/breadcrumb-bg.jpg">
@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="row">
-            @foreach (var item in Model.Select((value, index) => new { Index = index, Value = value }))
+            @foreach (var item in Model.ServicesData.Select((value, index) => new { Index = index, Value = value }))
             {
                 var orderClass = item.Index switch
                 {
@@ -63,46 +63,7 @@
                     </div>
                 </div>
             }
-          @*   
-            <div class="col-lg-3 order-lg-3 col-md-6 p-0">
-                <div class="ss-pic">
-                    <img src="/assets/img/services/services-2.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-3 order-lg-4 col-md-6 p-0">
-                <div class="ss-text">
-                    <h4>Group fitness classes</h4>
-                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
-                  
-                </div>
-            </div>
-            <div class="col-lg-3 order-lg-8 col-md-6 p-0">
-                <div class="ss-pic">
-                    <img src="/assets/img/services/services-4.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-3 order-lg-7 col-md-6 p-0">
-                <div class="ss-text second-row">
-                    <h4>Body building</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut dolore
-                        facilisis.
-                    </p>
-                  
-                </div>
-            </div>
-            <div class="col-lg-3 order-lg-6 col-md-6 p-0">
-                <div class="ss-pic">
-                    <img src="/assets/img/services/services-3.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-3 order-lg-5 col-md-6 p-0">
-                <div class="ss-text second-row">
-                    <h4>Strength training</h4>
-                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus.</p>
-                  
-                </div>
-            </div> *@
+       
         </div>
     </div>
 </section>
@@ -136,7 +97,28 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-8">
+
+            @foreach (var item in Model.PlanData)
+            {
+                <div class="col-lg-4 col-md-8">
+                    <div class="ps-item">
+                        <h3>@item?.Name</h3>
+                        <div class="pi-price">
+                            <h2>$ @item?.Price</h2>
+                            <span>@item?.Name</span>
+                        </div>
+                    
+                        <div class="description">
+                          <p>
+                                @item?.Description
+                          </p>
+                        </div>
+                       @*  <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                        <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a> *@
+                    </div>
+                </div>
+            }
+           @*  <div class="col-lg-4 col-md-8">
                 <div class="ps-item">
                     <h3>Class drop-in</h3>
                     <div class="pi-price">
@@ -154,45 +136,8 @@
                     <a href="#" class="primary-btn pricing-btn">Enroll now</a>
                     <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-8">
-                <div class="ps-item">
-                    <h3>12 Month unlimited</h3>
-                    <div class="pi-price">
-                        <h2>$ 99.0</h2>
-                        <span>SINGLE CLASS</span>
-                    </div>
-                    <ul>
-                        <li>Free riding</li>
-                        <li>Unlimited equipments</li>
-                        <li>Personal trainer</li>
-                        <li>Weight losing classes</li>
-                        <li>Month to mouth</li>
-                        <li>No time restriction</li>
-                    </ul>
-                    <a href="#" class="primary-btn pricing-btn">Enroll now</a>
-                    <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-8">
-                <div class="ps-item">
-                    <h3>6 Month unlimited</h3>
-                    <div class="pi-price">
-                        <h2>$ 59.0</h2>
-                        <span>SINGLE CLASS</span>
-                    </div>
-                    <ul>
-                        <li>Free riding</li>
-                        <li>Unlimited equipments</li>
-                        <li>Personal trainer</li>
-                        <li>Weight losing classes</li>
-                        <li>Month to mouth</li>
-                        <li>No time restriction</li>
-                    </ul>
-                    <a href="#" class="primary-btn pricing-btn">Enroll now</a>
-                    <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
-                </div>
-            </div>
+            </div> *@
+            
         </div>
     </div>
 </section>

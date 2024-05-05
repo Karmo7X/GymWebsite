@@ -13,7 +13,7 @@ public partial class Class
 
     public TimeOnly Time { get; set; }
 
-    public DateOnly Date { get; set; }
+    public string day { get; set; }
 
     public int Planid { get; set; }
 

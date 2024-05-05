@@ -5,13 +5,24 @@ namespace systemdesignProject.Controllers
 {
     public class ServicesController : Controller
     {
+        // This view model contains both services and plans
+      
         public IActionResult Services()
         {
-
             GymdatabaseContext db = new GymdatabaseContext();
-            var servcies_data = db.Services.ToList();
-            var plan_data = db.Planstables.ToList();
-            return View(servcies_data);
+            var services_data = db.Services.ToList();
+            var plan_data = db.Planstable.ToList();
+            var viewModel = new ServicesAndPlansViewModel
+            {
+                ServicesData = services_data,
+                PlanData = plan_data
+            };
+
+            return View(viewModel);
+
+           
         }
     }
+
+   
 }

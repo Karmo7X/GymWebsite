@@ -2,7 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-@model List<Ourteam>
+@model systemdesignProject.Models.HomeMultipulViewModel
 <div class="h-100">
     <!-- Hero Section Begin -->
     <section class="hero-section">
@@ -104,7 +104,34 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                @foreach (var item in Model.ClassesData.Select((value, index) => new { Index = index, Value = value }))
+                {
+                    var classes_Class = item.Index switch
+                    {
+                        0 => "col-lg-4 col-md-6",
+                        1 => "col-lg-4 col-md-6",
+                        2 => "col-lg-4 col-md-6",
+                        3 => "col-lg-4 col-md-6",
+                        4 => "col-lg-4 col-md-6",
+                     
+
+                    };
+
+                    <div class="@classes_Class">
+                        <div class="class-item">
+                            <div class="ci-pic">
+                                <img src="@item.Value?.Img" alt="">
+                            </div>
+                            <div class="ci-text">
+                               @*  <span>@item.Value?.Name</span> *@
+                                <h5>@item.Value?.Name</h5>
+                               @*  <a href="#"><i class="fa fa-angle-right"></i></a> *@
+                            </div>
+                        </div>
+                    </div>
+
+                }
+               @*  <div class="col-lg-4 col-md-6">
                     <div class="class-item">
                         <div class="ci-pic">
                             <img src="/assets/img/classes/class-1.jpg" alt="">
@@ -163,7 +190,7 @@
                             <a href="#"><i class="fa fa-angle-right"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> *@
             </div>
         </div>
     </section>
@@ -195,26 +222,28 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8">
-                    <div class="ps-item">
-                        <h3>Class drop-in</h3>
-                        <div class="pi-price">
-                            <h2>$ 39.0</h2>
-                            <span>SINGLE CLASS</span>
+                @foreach (var item in Model.PlanData)
+                {
+                    <div class="col-lg-4 col-md-8">
+                        <div class="ps-item">
+                            <h3>@item?.Name</h3>
+                            <div class="pi-price">
+                                <h2>$ @item?.Price</h2>
+                                <span>@item?.Name</span>
+                            </div>
+                        
+                            <div class="description">
+                                <p>
+                                    @item?.Description
+                                </p>
+                            </div>
+                            @*  <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                        <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a> *@
                         </div>
-                        <ul>
-                            <li>Free riding</li>
-                            <li>Unlimited equipments</li>
-                            <li>Personal trainer</li>
-                            <li>Weight losing classes</li>
-                            <li>Month to mouth</li>
-                            <li>No time restriction</li>
-                        </ul>
-                        <a href="#" class="primary-btn pricing-btn">Enroll now</a>
-                        <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-8">
+                }
+               
+               @*  <div class="col-lg-4 col-md-8">
                     <div class="ps-item">
                         <h3>12 Month unlimited</h3>
                         <div class="pi-price">
@@ -251,7 +280,7 @@
                         <a href="#" class="primary-btn pricing-btn">Enroll now</a>
                         <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
                     </div>
-                </div>
+                </div> *@
             </div>
         </div>
     </section>
@@ -297,7 +326,7 @@
             </div>
             <div class="row">
                 <div class="ts-slider owl-carousel">
-                    @foreach (var item in Model)
+                    @foreach (var item in Model.OurteamData)
                     {
                         <div class="col-lg-4">
                             <div class="ts-item set-bg" data-setbg="@item?.Img">

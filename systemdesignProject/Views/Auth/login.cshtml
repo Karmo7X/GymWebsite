@@ -40,9 +40,27 @@
         </div>
                 <div class="mt-3">
                     <div class="row">
-                        <div class="col-lg-6">
+                    <div class="col-lg-12">
+                        <div class="leave-comment  d-flex align-items-center justify-content-center">
+                            <form asp-action="Login" method="post">
+                                <input type="text" name="name" id="name" placeholder="Name" required>
+                                @* <input type="tel" name="phone" id="phone" placeholder="Phone" required> *@
+                                <input type="password" name="password" id="password" placeholder="password" required>
+
+                                @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                                {
+                                    <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+                                }
+
+
+                                <a href="/Auth/Register">Register</a>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                        <div class="col-lg-12">
                             
-                            <div class="contact-widget">
+                            <div class="contact-widget d-flex align-items-center justify-content-center">
                                 <div class="cw-text">
                                     <i class="fa fa-map-marker"></i>
                                     <p>333 Middle Winchendon Rd, Rindge,<br /> NH 03461</p>
@@ -60,17 +78,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="leave-comment">
-                                <form action="#">
-                                    <input type="text" placeholder="Name">
-                                    <input type="text" placeholder="Email">
-                                    <input type="text" placeholder="Website">
-                                    <textarea placeholder="Comment"></textarea>
-                                    <button type="submit">Submit</button>
-                                </form>
-                            </div>
-                        </div>
+                    
                     </div>
                 </div>
             </div>

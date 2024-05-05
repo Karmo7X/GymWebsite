@@ -21,7 +21,7 @@ public partial class GymdatabaseContext : DbContext
 
     public virtual DbSet<Ourteam> Ourteams { get; set; }
 
-    public virtual DbSet<Planstable> Planstables { get; set; }
+    public virtual DbSet<Planstable> Planstable { get; set; }
 
     public virtual DbSet<Service> Services { get; set; }
 
@@ -38,7 +38,7 @@ public partial class GymdatabaseContext : DbContext
             entity.ToTable("classes");
 
             entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Date).HasColumnName("date");
+            entity.Property(e => e.day).HasColumnName("day");
             entity.Property(e => e.Img)
                 .IsUnicode(false)
                 .HasColumnName("img");
